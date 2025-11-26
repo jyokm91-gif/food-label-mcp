@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "food-label-checker": {
+      "command": "node",
+      "args": [
+        "C:\\food-label-checker\\src\\index.js"
+      ],
+      "env": {
+        "FOOD_DB_API_KEY": "5e2a25d35b4189223608a3cca3f3d62e72f4897e80e7ff34e062995943ceb70d",
+        "FOOD_DB_API_URL": "https://apis.data.go.kr/1471000/FoodRwmtInfo"
+      }
+    },
+    "ragflow": {
+      "command": "node",
+      "args": [
+        "C:\\ragflow-mcp-nodejs\\index.js"
+      ]
+    },
+    "high-perf-calculator": {
+  "command": "uv",
+  "args": [
+    "--directory",
+    "C:\\high-perf-calculator",
+    "run",
+    "calculator.py"
+  ]
+    }
+      }
+        }
