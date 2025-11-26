@@ -1,0 +1,25 @@
+{
+  "name": "food-label-checker-http",
+  "version": "1.0.0",
+  "description": "식품 표기 정보 검증 MCP 서버 (HTTP/n8n 연동용)",
+  "type": "module",
+  "main": "index-http.js",
+  "scripts": {
+    "start": "node index-http.js",
+    "dev": "nodemon index-http.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
